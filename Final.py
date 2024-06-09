@@ -31,7 +31,7 @@ class Camera:
 
 
     def run(self):
-        print("Camera started...")
+        print("Camera activated...")
         while True:
             # Čitaj trenutni kadar sa kamere
             ret, frame = self.cap.read()
